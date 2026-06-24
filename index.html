@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luz de Duas | Velas Artesanais de Luxo Místico</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <a href="#" class="logo">Luz de Duas</a>
+    <nav id="nav">
+      <a href="#home">Início</a>
+      <a href="#colecao">Coleção</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-down">Luz de Duas</h1>
+      <p data-aos="fade-up" data-aos-delay="300">Acenda o que há de mais sagrado em você</p>
+      <a href="#colecao" class="btn" data-aos="zoom-in" data-aos-delay="600">Conheça nossa coleção</a>
+    </div>
+  </section>
+
+  <!-- MINI GALLERY -->
+  <section class="mini-gallery">
+    <h2 class="section-title" data-aos="fade-up">Mais Vendidas</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/lua-cheia.jpg" alt="Lua Cheia">
+        <div class="gallery-overlay">
+          <h3>Lua Cheia</h3>
+          <p>Lavanda & Camomila</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/deusa.jpg" alt="Deusa">
+        <div class="gallery-overlay">
+          <h3>Deusa</h3>
+          <p>Rosa & Baunilha Negra</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+        <img src="images/intuicao.jpg" alt="Intuição">
+        <div class="gallery-overlay">
+          <h3>Intuição</h3>
+          <p>Palo Santo & Sândalo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLEÇÕES -->
+  <section class="collections" id="colecao">
+    <h2 class="section-title" data-aos="fade-up">Nossas Intenções</h2>
+    <div class="collections-grid">
+      <div class="collection-card" data-aos="zoom-in" onclick="location.href='produto-deusa.html'">
+        <img src="images/amor-proprio.jpg" alt="Amor Próprio">
+        <div class="collection-info">
+          <h3>Amor Próprio</h3>
+          <p>Desperte sua essência mais íntima.</p>
+        </div>
+      </div>
+      <!-- Repita os outros 3 cards igual acima, só mudando nome e imagem -->
+    </div>
+  </section>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5531999999999" target="_blank" class="whatsapp-float">
+    <svg viewBox="0 0 32 32"><path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16z" fill="#fff"/></svg>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
